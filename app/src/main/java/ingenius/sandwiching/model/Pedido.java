@@ -1,6 +1,6 @@
 package ingenius.sandwiching.model;
 
-import com.orm.SugarApp;
+import com.orm.SugarRecord;
 import com.orm.dsl.Column;
 import com.orm.dsl.Table;
 
@@ -8,8 +8,8 @@ import com.orm.dsl.Table;
  * Created by cesarlizcano on 17/11/17.
  */
 
-@Table(name = "Pedido")
-public class Pedido extends SugarApp{
+@Table(name = "Pedidos")
+public class Pedido extends SugarRecord{
 
     @Column(name = "IdProducto")
     private int idProducto ;
@@ -27,7 +27,7 @@ public class Pedido extends SugarApp{
     private int cantidad ;
 
     @Column(name = "descripcion")
-    private int descripcion ;
+    private String descripcion ;
 
     @Column(name = "precioTotal")
     private int precioTotal ;
@@ -75,11 +75,11 @@ public class Pedido extends SugarApp{
         this.cantidad = cantidad;
     }
 
-    public int getDescripcion() {
+    public String getDescripcion() {
         return descripcion;
     }
 
-    public void setDescripcion(int descripcion) {
+    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 

@@ -23,7 +23,7 @@ public class SplashScrenn extends AppCompatActivity {
                 try {
 
                     sleep(4000);
-                    Intent intent = new Intent(SplashScrenn.this, LoginActivity.class);
+                    Intent intent = new Intent(SplashScrenn.this, MainActivity.class);
                     startActivity(intent);
                     finish();
 

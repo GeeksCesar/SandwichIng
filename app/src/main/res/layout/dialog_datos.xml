@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000">
+
+    <TextView
+        android:id="@+id/tvTitleDialogDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font_poetsen"
+        android:gravity="center"
+        android:text="DATOS DOMICILIO"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/size_title_pedido" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnEnviarPedido"
+        android:layout_below="@+id/tvTitleDialogDatos"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/edBarrioUser"
+                style="@style/Editext"
+                android:layout_marginTop="15dp"
+                android:hint="Tu Barrio"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edDireccionUser"
+                style="@style/Editext"
+                android:layout_below="@+id/edBarrioUser"
+                android:layout_marginTop="15dp"
+                android:hint="Tu Dirección"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/edTelefonoUser"
+                style="@style/Editext"
+                android:layout_below="@+id/edDireccionUser"
+                android:layout_marginTop="15dp"
+                android:hint="Tu Telefono"
+                android:inputType="phone"
+                android:maxLength="10" />
+
+            <EditText
+                android:id="@+id/edObservacionUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edTelefonoUser"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_editext"
+                android:gravity="center"
+                android:hint="Tu Observacion"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:maxLines="3" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnEnviarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/md_red_500"
+        android:fontFamily="@font/font_poetsen"
+        android:text="Enviar Pedido"
+        android:textColor="@color/md_white_1000"
+        android:textSize="@dimen/size_text_button"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

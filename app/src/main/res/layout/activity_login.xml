@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ingenius.sandwiching.LoginActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btnLogFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_button"
+        android:drawableLeft="@mipmap/icono_facebook"
+        android:fontFamily="@font/font_poetsen"
+        android:text="Continuar con facebook"
+        android:textColor="@color/md_white_1000" />
+
+
+</RelativeLayout>

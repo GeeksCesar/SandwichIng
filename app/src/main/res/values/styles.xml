@@ -16,4 +16,22 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="Editext" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_editext</item>
+        <item name="android:background">@drawable/bg_editext</item>
+        <item name="android:textColor">@color/md_black_1000_75</item>
+        <item name="android:textColorHint">@color/md_black_1000_50</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:ems">10</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

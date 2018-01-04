@@ -2,4 +2,46 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <!-- size view pedido -->
+    <dimen name="size_height_banner">180dp</dimen>
+    <dimen name="size_text_banner">32sp</dimen>
+    <dimen name="size_text_button">18sp</dimen>
+
+    <!-- size view producto -->
+    <dimen name="size_imagen_producto">115dp</dimen>
+    <dimen name="size_height_progress">25dp</dimen>
+    <dimen name="size_title_producto">15sp</dimen>
+    <dimen name="size_descripcion_producto">13dp</dimen>
+    <dimen name="size_precio_producto">15sp</dimen>
+
+    <!-- Size view PedidoCarrito -->
+    <dimen name="size_name">10sp</dimen>
+    <dimen name="size_height_button_ope">30dp</dimen>
+    <dimen name="size_height_delete_btn">25dp</dimen>
+    <dimen name="size_cantidad">12sp</dimen>
+    <dimen name="size_precio">18sp</dimen>
+    <dimen name="size_title_prod">16sp</dimen>
+    <dimen name="size_imagen">90dp</dimen>
+    <dimen name="size_text_btn">18sp</dimen>
+
+    <!-- size dialog tu pedido -->
+    <dimen name="size_title_pedido">32sp</dimen>
+    <dimen name="size_text_precio_total">24sp</dimen>
+
+    <!-- size dialog datos -->
+    <dimen name="size_editext">45dp</dimen>
+    <dimen name="size_text">16sp</dimen>
+
+    <!--size text Login-->
+    <dimen name="size_text_login">15sp</dimen>
+    <dimen name="size_heigth_button">45dp</dimen>
+    <dimen name="size_width_button">240dp</dimen>
+    <dimen name="size_text_perfil">16sp</dimen>
+    <dimen name="margin_content_perfil">10dp</dimen>
+    <dimen name="size_text_buton_cerrar_session">16dp</dimen>
+
+
 </resources>

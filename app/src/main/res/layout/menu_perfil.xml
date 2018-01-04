@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contenedorView"
+    android:layout_marginLeft="@dimen/margin_content_perfil"
+    android:layout_marginRight="@dimen/margin_content_perfil"
+    tools:context="ingenius.sandwiching.menu.Perfil">
+
+    <TextView
+        android:id="@+id/tvEmailUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNameUsuario"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_editext_datos"
+        android:ems="10"
+        android:textColor="@color/md_black_1000_75"
+        android:textSize="@dimen/size_text_perfil"
+        android:visibility="visible"
+        android:text="cesr10@hotial.com"/>
+
+    <TextView
+        android:id="@+id/tvNameUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_editext_datos"
+        android:ems="10"
+        android:textColor="@color/md_black_1000_75"
+        android:textSize="@dimen/size_text_perfil"
+        android:visibility="visible"
+        android:text="cesr10@hotial.com"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/btnSinLogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_heigth_button"
+            android:background="@drawable/bg_button"
+            android:drawableLeft="@mipmap/icono_cerrar_sesion"
+            android:fontFamily="@font/font_poetsen"
+            android:paddingLeft="8dp"
+            android:text="Iniciar sessión"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/size_text_button"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btnLogOutFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_heigth_button"
+            android:background="@drawable/bg_button"
+            android:drawableLeft="@mipmap/icono_facebook"
+            android:fontFamily="@font/font_poetsen"
+            android:paddingLeft="8dp"
+            android:text="Cerrar Sesión de Facebook"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/size_text_button"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</RelativeLayout>

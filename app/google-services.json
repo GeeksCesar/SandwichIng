@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "364416083299",
+    "firebase_url": "https://testimage-fbe8b.firebaseio.com",
+    "project_id": "testimage-fbe8b",
+    "storage_bucket": "testimage-fbe8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364416083299:android:b9b5098b9d664b60",
+        "android_client_info": {
+          "package_name": "ingenius.sandwiching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364416083299-rmc2hkkc0duh4r2gtjbbivrvd782e63i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ingenius.sandwiching",
+            "certificate_hash": "e2bb8f0afd37a17e7801a2e56df1e7f4a6f72685"
+          }
+        },
+        {
+          "client_id": "364416083299-iiiqqhka0pltndtnrn9rgb59fh363evs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlkSaNC60LT4N4yTPd1ZPZyrhyZtmzxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364416083299-iiiqqhka0pltndtnrn9rgb59fh363evs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

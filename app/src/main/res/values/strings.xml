@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">SandwichIng</string>
     <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Title menu -->
+    <string name="title_pedido">Inicio</string>
+    <string name="title_vaciar_pedido">Vaciar Pedido</string>
+    <string name="title_mi_pedido">Mi Pedido</string>
+    <string name="title_mi_perfil">Mi Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Configuracion Facebook -->
+    <string name="facebook_app_id">1514774891940762</string>
+    <string name="fb_login_protocol_scheme">fb1514774891940762</string>
+
+    <!--Alertas -->
+    <string name="alert_pedido_vacio">Tu pedido esta vacio</string>
+    <string name="alert_input_vacio">Escribe tu barrio , direccion y telefono</string>
+    <string name="alert_telefono_error">Verifique tu telefono</string>
+
+    <!-- Preferences -->
+    <string name="pref_datos">Usuario</string>
+    <string name="pre_email">emailUser</string>
+    <string name="pre_name">nameUser</string>
+
+
 </resources>

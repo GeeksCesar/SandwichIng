@@ -1,0 +1,92 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ingenius.sandwiching.menu.Pedidos"
+    android:id="@+id/contenedorPrincipal">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_height_banner"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/colapsing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <TextView
+                android:id="@+id/tvTitleBanner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="4dp"
+                android:fontFamily="@font/poetsen"
+                android:gravity="center"
+                android:text="REALIZA TU PEDIDO"
+                android:textSize="@dimen/size_text_banner" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/contenededorCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <Button
+            android:id="@+id/btnSandwich"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/poetsen"
+            android:padding="3dp"
+            android:text="Sandwich"
+            android:layout_margin="2dp"
+            android:textSize="@dimen/size_text_button"
+            android:textColor="@color/md_white_1000"
+            android:background="@drawable/bg_button"/>
+
+        <Button
+            android:id="@+id/btnBebidas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/poetsen"
+            android:padding="3dp"
+            android:text="Bebidas"
+            android:layout_margin="2dp"
+            android:textSize="@dimen/size_text_button"
+            android:textColor="@color/md_white_1000"
+            android:background="@drawable/bg_button"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:scrollbars="vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="4dp"
+        app:srcCompat="@mipmap/ic_shopping" />
+
+</android.support.design.widget.CoordinatorLayout>

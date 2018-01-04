@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewVaciarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageViewVaciarPedido"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAceptar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="5"
+            android:background="@drawable/buton_tu_pedido"
+            android:text="Aceptar"
+            android:textColor="@color/md_white_1000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/buttonCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_out"
+            android:text="Cancelar"
+            android:textColor="@color/md_white_1000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</RelativeLayout>
